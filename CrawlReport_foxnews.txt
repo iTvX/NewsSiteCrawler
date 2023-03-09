@@ -1,0 +1,40 @@
+Name: Zijie Yu
+USC ID: 8552094404
+News site crawled: foxnews.com
+Number of threads: 80
+
+Fetch Statistics
+================
+# fetches attempted: 19998
+# fetches succeeded: 19814
+# fetches failed or aborted: 184
+
+Outgoing URLs:
+==============
+Total URLs extracted: 1159839
+# unique URLs extracted: 58186
+# unique URLs within News Site: 58186
+# unique URLs outside News Site: 1101653
+
+Status Codes:
+=============
+200 OK: 19814
+301 Moved Permanently: 120
+302 Found: 2
+400 Bad Request Response: null
+401 Unauthorized: null
+403 Forbidden: null
+404 Not Found: 62
+410 Gone: null
+
+File Sizes:
+===========
+< 1KB: 0
+1KB ~ <10KB: 0
+10KB ~ <100KB: 9452
+100KB ~ <1MB: 7689
+>= 1MB: 47
+
+Content Types:
+==============
+text/html: 17188
