@@ -2,7 +2,7 @@
 
 ## Author
 
-Developed by Zijie Yu on 3/7/2023.
+Developed by Cyril on 3/7/2023.
 
 # Website Crawler
 
@@ -11,10 +11,11 @@ This program is a web crawler that crawls a news website and collects statistics
 ## Prerequisites
 
 - JDK 11
+- Download crawler4j JAR 4.4.0 with all dependencies: https://jar-download.com/artifacts/edu.uci.ics/crawler4j/4.4.0/source-code
 
 ## Libraries
 
-The crawler uses version 4.4 of the crawler4j library and requires importing the 23 jar files specified in the homework assignment.
+The crawler uses version 4.4 of the crawler4j library and requires importing the 23 jar files from prerequisites link.
 
 ## Features
 
@@ -22,6 +23,7 @@ The crawler uses version 4.4 of the crawler4j library and requires importing the
 - The crawler visits pages on the domain [foxnews.com](http://foxnews.com) and ignores certain file types specified in the EXCLUSIONS pattern.
 - The crawler collects various statistics on each visited page such as download size, number of outgoing links, and content type.
 - The statistics are collected in the `pageStats` class and saved to three CSV files and one text file at the end of crawling.
+- You can change foxnews.com to any other news site.
 
 ## Code Overview
 
